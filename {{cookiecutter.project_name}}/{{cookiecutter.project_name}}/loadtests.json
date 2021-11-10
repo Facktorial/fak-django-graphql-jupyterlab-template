@@ -1,0 +1,32 @@
+[
+    {
+        "model": "{{cookiecutter.project_name}}.Test",
+        "pk": 1,
+        "fields": 
+        {
+            "name": "Dairy",
+            "size": 10,
+			"consumers": "{'consumers': ['trinact', 'dva', 'tri']}"
+        }
+    },
+    {
+        "model": "{{cookiecutter.project_name}}.Test",
+        "pk": 2,
+        "fields": 
+        {
+            "name": "Diary",
+            "size": 10,
+			"consumers": "{'consumers': ['trinact', 'dva', 'tri']}"
+        }
+    },
+    {
+        "model": "{{cookiecutter.project_name}}.Test",
+        "pk": 3,
+        "fields": 
+        {
+            "name": "Dairydiarrhea ",
+            "size": 4,
+			"consumers": "{'consumers': ['trinact', 'dva', 'tri']}"
+        }
+    }
+]

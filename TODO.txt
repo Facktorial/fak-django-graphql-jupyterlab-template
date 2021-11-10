@@ -1,0 +1,5 @@
+get docker work
+get docs work
+get ci works
+get proper readmes
+xkcd matplotlib
