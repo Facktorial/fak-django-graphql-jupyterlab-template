@@ -47,7 +47,7 @@ cd <project name>
 poetry run python manage.py makemigrations
 poetry run python manage.py migrate
 poetry run python manage.py createsuperuser
-poetry run python manage.py load loadtests.json
+poetry run python manage.py loaddata loadtests.json
 poetry run python manage.py runserver
 ```
 
