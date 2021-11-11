@@ -34,7 +34,7 @@ pip install cookiecutter
 Then, create a project itself (in venv):
 
 ```bash
-cookiecutter <gh:facktorial/fak-django-graphql-jupyterlab-template>
+cookiecutter https://github.com/Facktorial/fak-django-graphql-jupyterlab-template.git
 ```
 
 ```bash
@@ -55,12 +55,12 @@ Test GraphQl api: on localhost:port/graphql/
 
 ```
 query {
-	allTests {
-	    name
-		id
-		size
-		consumers				  
-	}	
+    allTests {
+	name
+	id
+	size
+	consumers				  
+    }	
 }
 ```
 
